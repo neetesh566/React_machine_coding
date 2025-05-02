@@ -1,7 +1,12 @@
-import Pagination from "./Pagination";
+import React from 'react';
+import CounterApp from "./components/CounterApp"
 
-import "./styles.css";
-
-export default function App() {
-  return <Pagination />;
+function App() {
+  return (
+    <div className="App">
+      <CounterApp/>
+    </div>
+  );
 }
+
+export default App;
